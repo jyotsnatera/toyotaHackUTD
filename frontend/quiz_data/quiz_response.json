@@ -1,0 +1,36 @@
+{
+  "question_1": {
+    "question": "What kind of roads or conditions do you often drive in?",
+    "selected_options": [
+      "City streets / stop-and-go traffic"
+    ],
+    "custom_answer": ""
+  },
+  "question_2": {
+    "question": "What do you mainly use your car for?",
+    "selected_options": [
+      "Weekend getaways or road trips"
+    ],
+    "custom_answer": ""
+  },
+  "question_3": {
+    "question": "What kind of vehicle fits your lifestyle and vibe best?",
+    "selected_options": [
+      "\ud83d\ude99 SUV & adventurous \u2013 practical with space for family or weekend getaways"
+    ],
+    "custom_answer": ""
+  },
+  "question_4": {
+    "question": "Which features would make your driving experience better?",
+    "selected_options": [
+      "Wireless Apple CarPlay \u2013 easy connection without cables"
+    ],
+    "custom_answer": ""
+  },
+  "question_5": {
+    "question": "What is your MSRP price preference?",
+    "selected_options": [
+      "$45,000 - $55,000"
+    ]
+  }
+}
