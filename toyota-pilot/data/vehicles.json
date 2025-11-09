@@ -1,24 +1,277 @@
 [
   {
-    "id": "rav4h-2025-xle-awd",
     "model": "RAV4",
     "year": 2025,
-    "trim": "Hybrid XLE",
     "body_type": "SUV",
-    "drive_type": "AWD",
-    "fuel_type": "hybrid",
-    "features": ["heated_front_seats", "blind_spot_monitor", "adaptive_cruise"],
-    "packages": [{"name": "Weather Package", "adds": ["heated_front_seats"]}]
+    "trims": [
+      {
+        "id": "rav4h-2025-xle-hybrid-awd",
+        "name": "XLE Hybrid AWD",
+        "drive_type": "AWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 34300,
+        "mpg": { "city": 41, "highway": 38, "combined": 40 },
+        "features": ["heated_front_seats", "blind_spot_monitor", "adaptive_cruise"],
+        "packages": [{ "name": "Weather Package", "adds": ["heated_front_seats"] }],
+        "colors": [
+          { "name": "Cavalry Blue w/ Midnight Black Metallic Roof", "extra_cost": true },
+          { "name": "Army Green w/ Midnight Black Metallic Roof", "extra_cost": true },
+          { "name": "Ruby Flare Pearl", "extra_cost": true },
+          { "name": "Blueprint", "extra_cost": false }
+        ],
+        "image": "https://media.ed.edmunds-media.com/toyota/rav4-plug-in-hybrid/2025/oem/2025_toyota_rav4-plug-in-hybrid_4dr-suv_xse_fq_oem_1_1600.jpg"
+      },
+      {
+        "id": "rav4h-2025-limited-hybrid-awd",
+        "name": "Limited Hybrid AWD",
+        "drive_type": "AWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 38500,
+        "mpg": { "city": 41, "highway": 37, "combined": 39 },
+        "features": ["leather_seats", "ventilated_front_seats", "adaptive_cruise", "panoramic_roof"],
+        "packages": [],
+        "colors": [
+          { "name": "Silver Sky Metallic", "extra_cost": false },
+          { "name": "Magnetic Gray Metallic", "extra_cost": false },
+          { "name": "Ruby Flare Pearl", "extra_cost": true }
+        ],
+        "image": "https://images.cars.com/cldstatic/wp-content/uploads/toyota-rav4-2025-exterior-oem-01.jpg"
+      }
+    ]
   },
   {
-    "id": "camry-2025-se-hybrid-fwd",
     "model": "Camry",
     "year": 2025,
-    "trim": "SE Hybrid",
     "body_type": "Sedan",
-    "drive_type": "FWD",
-    "fuel_type": "hybrid",
-    "features": ["adaptive_cruise", "lane_keep", "wireless_carplay"],
-    "packages": [{"name": "Cold Weather Package", "adds": ["heated_front_seats"]}]
+    "trims": [
+      {
+        "id": "camry-2025-se-hybrid-fwd",
+        "name": "SE Hybrid FWD",
+        "drive_type": "FWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 29400,
+        "mpg": { "city": 51, "highway": 53, "combined": 52 },
+        "features": ["adaptive_cruise", "lane_keep", "wireless_carplay"],
+        "packages": [{ "name": "Cold Weather Package", "adds": ["heated_front_seats"] }],
+        "colors": [
+          { "name": "Wind Chill Pearl", "extra_cost": true },
+          { "name": "Ice Edge", "extra_cost": false },
+          { "name": "Celestial Silver Metallic", "extra_cost": false }
+        ],
+        "image": "https://www.edmunds.com/assets/m/cs/bltbbff540b92693b75/662030c5ad926e2c14a4ab9d/2025_Toyota_Camry_9_1600.jpg"
+      },
+      {
+        "id": "camry-2025-xse-hybrid-fwd",
+        "name": "XSE Hybrid FWD",
+        "drive_type": "FWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 34600,
+        "mpg": { "city": 47, "highway": 45, "combined": 46 },
+        "features": ["sport_tuned_suspension", "adaptive_cruise", "lane_keep"],
+        "packages": [],
+        "colors": [
+          { "name": "Heavy Metal w/ Midnight Black Metallic Roof", "extra_cost": true },
+          { "name": "Ocean Gem w/ Midnight Black Metallic Roof", "extra_cost": true },
+          { "name": "Wind Chill Pearl w/ Midnight Black Metallic Roof", "extra_cost": true },
+          { "name": "Supersonic Red", "extra_cost": true }
+        ],
+        "image": "https://cdn.jdpower.com/ArticleImages/JDP_2025%20Toyota%20Camry%20XSE%20Ocean%20Gem%20Front%20Quarter%20View.jpg"
+      }
+    ]
+  },
+  {
+    "model": "Highlander",
+    "year": 2025,
+    "body_type": "SUV",
+    "trims": [
+      {
+        "id": "highlander-2025-xle-awd",
+        "name": "XLE AWD",
+        "drive_type": "AWD",
+        "fuel_type": "gas",
+        "msrp_usd": 42600,
+        "mpg": { "city": 21, "highway": 28, "combined": 24 },
+        "features": ["three_row_seating", "blind_spot_monitor", "adaptive_cruise"],
+        "packages": [],
+        "colors": [
+          { "name": "Cypress Green", "extra_cost": false },
+          { "name": "Ruby Flare Pearl", "extra_cost": true },
+          { "name": "Blueprint", "extra_cost": false }
+        ],
+        "image": "https://hips.hearstapps.com/hmg-prod/images/2025-toyota-highlander-102-66e97932a6f77.jpg?crop=1.00xw:0.846xh;0,0.154xh&resize=2048:*"
+      },
+      {
+        "id": "highlander-2025-limited-hybrid-awd",
+        "name": "Limited Hybrid AWD",
+        "drive_type": "AWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 48000,
+        "mpg": { "city": 36, "highway": 35, "combined": 35 },
+        "features": ["heated_and_ventilated_front_seats", "adaptive_headlights", "panoramic_moonroof"],
+        "packages": [],
+        "colors": [
+          { "name": "Wind Chill Pearl", "extra_cost": true },
+          { "name": "Moon Dust", "extra_cost": false },
+          { "name": "Magnetic Gray Metallic", "extra_cost": false }
+        ],
+        "image": "https://media.ed.edmunds-media.com/toyota/grand-highlander-hybrid/2025/oem/2025_toyota_grand-highlander-hybrid_4dr-suv_max-limited_fq_oem_1_1600.jpg"
+      }
+    ]
+  },
+  {
+    "model": "Prius",
+    "year": 2025,
+    "body_type": "Hatchback",
+    "trims": [
+      {
+        "id": "prius-2025-limited-awd",
+        "name": "Limited AWD",
+        "drive_type": "AWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 36970,
+        "mpg": { "city": 52, "highway": 52, "combined": 52 },
+        "features": ["heated_front_seats", "adaptive_cruise", "wireless_charging"],
+        "packages": [],
+        "colors": [
+          { "name": "Guardian Gray", "extra_cost": false },
+          { "name": "Supersonic Red", "extra_cost": true },
+          { "name": "Wind Chill Pearl", "extra_cost": true }
+        ],
+        "image": "https://www.usnews.com/object/image/00000192-df52-d088-af9b-dfd63a120000/01-usnpx-2025toyotaprius-angularfront-jms.jpg?update-time=1730323942152&size=responsiveGallery&format=webp"
+      },
+      {
+        "id": "prius-2025-xle-awd",
+        "name": "XLE AWD",
+        "drive_type": "AWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 32750,
+        "mpg": { "city": 52, "highway": 52, "combined": 52 },
+        "features": ["heated_steering_wheel", "lane_keep_assist", "adaptive_cruise"],
+        "packages": [],
+        "colors": [
+          { "name": "Cutting Edge", "extra_cost": false },
+          { "name": "Reservoir Blue", "extra_cost": false },
+          { "name": "Supersonic Red", "extra_cost": true }
+        ],
+        "image": "https://hips.hearstapps.com/hmg-prod/images/2023-toyota-prius-front-three-quarters-in-motin-3-1670948359.jpg?crop=0.726xw:0.613xh;0.147xw,0.337xh&resize=1200:*"
+      }
+    ]
+  },
+  {
+    "model": "Tacoma",
+    "year": 2025,
+    "body_type": "Truck",
+    "trims": [
+      {
+        "id": "tacoma-2025-trd-offroad-4x4",
+        "name": "TRD Off-Road 4x4",
+        "drive_type": "4x4",
+        "fuel_type": "gas",
+        "msrp_usd": 41800,
+        "mpg": { "city": 20, "highway": 23, "combined": 21 },
+        "features": ["locking_rear_diff", "terrain_modes", "skid_plate"],
+        "packages": [],
+        "colors": [
+          { "name": "Solar Octane", "extra_cost": true },
+          { "name": "Underground", "extra_cost": false },
+          { "name": "Blue Crush Metallic", "extra_cost": false }
+        ],
+        "image": "https://vehicle-images.dealerinspire.com/cf72-110007440/3TMLB5JNXSM090286/39bd8560fa9742d0914c766df8ef977e.png"
+      },
+      {
+        "id": "tacoma-2025-limited-4x4",
+        "name": "Limited 4x4",
+        "drive_type": "4x4",
+        "fuel_type": "gas",
+        "msrp_usd": 46500,
+        "mpg": { "city": 21, "highway": 24, "combined": 22 },
+        "features": ["leather_seats", "heated_and_ventilated_seats", "panoramic_view_monitor"],
+        "packages": [],
+        "colors": [
+          { "name": "Supersonic Red", "extra_cost": true },
+          { "name": "Black", "extra_cost": false },
+          { "name": "Lunar Rock", "extra_cost": false }
+        ],
+        "image": "https://hips.hearstapps.com/hmg-prod/images/2025-toyota-tacoma-prerunner-101-681b80dd44cde.jpg?crop=0.741xw:0.624xh;0.135xw,0.283xh&resize=2048:*"
+      }
+    ]
+  },
+  {
+    "model": "Corolla",
+    "year": 2025,
+    "body_type": "Sedan",
+    "trims": [
+      {
+        "id": "corolla-2025-le-hybrid-fwd",
+        "name": "LE Hybrid FWD",
+        "drive_type": "FWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 23850,
+        "mpg": { "city": 50, "highway": 43, "combined": 47 },
+        "features": ["lane_keep", "adaptive_cruise", "automatic_high_beams"],
+        "packages": [],
+        "colors": [
+          { "name": "Classic Silver Metallic", "extra_cost": false },
+          { "name": "Ruby Flare Pearl", "extra_cost": true },
+          { "name": "Blueprint", "extra_cost": false }
+        ],
+        "image": "https://media.ed.edmunds-media.com/toyota/corolla-hybrid/2025/oem/2025_toyota_corolla-hybrid_sedan_se_fq_oem_1_1600.jpg"
+      },
+      {
+        "id": "corolla-2025-xse-hybrid-fwd",
+        "name": "XSE Hybrid FWD",
+        "drive_type": "FWD",
+        "fuel_type": "hybrid",
+        "msrp_usd": 26900,
+        "mpg": { "city": 47, "highway": 44, "combined": 45 },
+        "features": ["sport_tuned_suspension", "heated_front_seats", "smart_key_system"],
+        "packages": [],
+        "colors": [
+          { "name": "Celestite", "extra_cost": false },
+          { "name": "Wind Chill Pearl", "extra_cost": true },
+          { "name": "Supersonic Red", "extra_cost": true }
+        ],
+        "image": "https://www.autoblog.com/.image/c_fill,g_faces:center/MjExOTU0Mzc5NTg5MTY2NjI3/2025-toyota-corolla-xse.jpg"
+      }
+    ]
+  },
+  {
+    "model": "Tundra",
+    "year": 2025,
+    "body_type": "Truck",
+    "trims": [
+      {
+        "id": "tundra-2025-sr5-4x4",
+        "name": "SR5 4x4",
+        "drive_type": "4x4",
+        "fuel_type": "gas",
+        "msrp_usd": 45300,
+        "mpg": { "city": 17, "highway": 23, "combined": 19 },
+        "features": ["tow_package", "adaptive_cruise", "lane_departure_alert"],
+        "packages": [],
+        "colors": [
+          { "name": "Midnight Black Metallic", "extra_cost": false },
+          { "name": "Supersonic Red", "extra_cost": true },
+          { "name": "Magnetic Gray Metallic", "extra_cost": false }
+        ],
+        "image": "https://cdn.dlron.us/static/dealer-12649/2025-Toyota-Tundra.jpg"
+      },
+      {
+        "id": "tundra-2025-limited-hybrid-4x4",
+        "name": "Limited Hybrid 4x4",
+        "drive_type": "4x4",
+        "fuel_type": "hybrid",
+        "msrp_usd": 56200,
+        "mpg": { "city": 20, "highway": 24, "combined": 22 },
+        "features": ["hybrid_twin_turbo_v6", "leather_trimmed_seats", "digital_display_mirror"],
+        "packages": [],
+        "colors": [
+          { "name": "Blueprint", "extra_cost": false },
+          { "name": "Supersonic Red", "extra_cost": true },
+          { "name": "Wind Chill Pearl", "extra_cost": true }
+        ],
+        "image": "https://media.ed.edmunds-media.com/toyota/tundra/2025/oem/2025_toyota_tundra_crew-cab-pickup_1794-edition_fq_oem_1_1600.jpg"
+      }
+    ]
   }
 ]
