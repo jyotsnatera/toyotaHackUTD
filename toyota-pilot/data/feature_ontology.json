@@ -1,0 +1,20 @@
+
+
+{
+  "heated seats": "heated_front_seats",
+  "seat warmers": "heated_front_seats",
+  "blind spot": "blind_spot_monitor",
+  "blind spot alert": "blind_spot_monitor",
+  "blind spot monitoring": "blind_spot_monitor",
+  "lane assist": "lane_keep",
+  "lane centering": "lane_keep",
+  "carplay": "wireless_carplay",
+  "apple carplay": "wireless_carplay",
+  "wireless carplay": "wireless_carplay",
+  "panoramic roof": "panoramic_roof",
+  "sunroof": "moonroof",
+  "360 camera": "360_camera",
+  "awd": "AWD",
+  "4wd": "4WD",
+  "all wheel drive": "AWD"
+}

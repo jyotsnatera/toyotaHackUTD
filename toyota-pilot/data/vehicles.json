@@ -1,0 +1,24 @@
+[
+  {
+    "id": "rav4h-2025-xle-awd",
+    "model": "RAV4",
+    "year": 2025,
+    "trim": "Hybrid XLE",
+    "body_type": "SUV",
+    "drive_type": "AWD",
+    "fuel_type": "hybrid",
+    "features": ["heated_front_seats", "blind_spot_monitor", "adaptive_cruise"],
+    "packages": [{"name": "Weather Package", "adds": ["heated_front_seats"]}]
+  },
+  {
+    "id": "camry-2025-se-hybrid-fwd",
+    "model": "Camry",
+    "year": 2025,
+    "trim": "SE Hybrid",
+    "body_type": "Sedan",
+    "drive_type": "FWD",
+    "fuel_type": "hybrid",
+    "features": ["adaptive_cruise", "lane_keep", "wireless_carplay"],
+    "packages": [{"name": "Cold Weather Package", "adds": ["heated_front_seats"]}]
+  }
+]
