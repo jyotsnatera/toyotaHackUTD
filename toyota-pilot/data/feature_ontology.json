@@ -14,11 +14,13 @@
   "air conditioned seats": "ventilated_seats",
   "ac seats": "ventilated_seats",
   "cooling seats": "ventilated_seats",
+  "seats with ac": "ventilated_seats",
 
   "leather seats": "leather_seats",
   "leather interior": "leather_seats",
   "premium leather": "leather_seats",
   "leather upholstery": "leather_seats",
+  "leather": "leather_seats",
 
   "blind spot": "blind_spot_monitor",
   "blind spot alert": "blind_spot_monitor",
@@ -27,6 +29,7 @@
   "blind spot check": "blind_spot_monitor",
   "blind spot checking": "blind_spot_monitor",
   "blind spot sensor": "blind_spot_monitor",
+  "blind spot sensing": "blind_spot_monitor",
   "bsm": "blind_spot_monitor",
 
   "lane assist": "lane_keep",
@@ -35,6 +38,7 @@
   "lane keep assist": "lane_keep",
   "lane centering": "lane_keep",
   "stay in lane": "lane_keep",
+  "staying in lane": "lane_keep",
   "lane departure prevention": "lane_keep",
   "lane correction": "lane_keep",
 
@@ -47,13 +51,17 @@
 
   "cruise control": "cruise_control",
   "standard cruise": "cruise_control",
+  "standard cruise control": "cruise_control",
 
   "carplay": "wireless_carplay",
   "apple carplay": "wireless_carplay",
+  "apple car play": "wireless_carplay",
   "car play": "wireless_carplay",
   "wireless carplay": "wireless_carplay",
   "wireless car play": "wireless_carplay",
   "connect iphone": "wireless_carplay",
+  "iphone connect": "wireless_carplay",
+  "iphone connection": "wireless_carplay",
   "iphone integration": "wireless_carplay",
   "apple connect": "wireless_carplay",
 
@@ -61,6 +69,7 @@
   "androidauto": "wireless_android_auto",
   "wireless android auto": "wireless_android_auto",
   "connect android": "wireless_android_auto",
+  "android connection": "wireless_android_auto",
   "google auto": "wireless_android_auto",
 
   "navigation": "built_in_navigation",
@@ -84,6 +93,7 @@
   "sun roof": "moonroof",
 
   "backup camera": "rearview_camera",
+  "back up camera": "rearview_camera",
   "rear camera": "rearview_camera",
   "reverse camera": "rearview_camera",
   "back up cam": "rearview_camera",
